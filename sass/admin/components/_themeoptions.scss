@@ -1,0 +1,91 @@
+.redux-sidebar-head
+ {   
+    background: #363433 url(../../images/iconfinder_Avengers1.png) no-repeat center;
+    background-size: 90px 90px;
+    border: none;    
+    height: 180px;
+  
+
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+   
+    display: inline-block;
+    width: 200px;
+ 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    
+}
+        
+
+    .redux-logo-text{
+        margin-top: 155px;
+        display: block;
+        padding: 10px 0;
+        background: #65bc7b;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    .redux-sidebar
+    {
+        .redux-group-menu
+        {
+            margin-top: 20px !important;
+            li.active a, li.active a:hover, li.activeChild a,li.activeChild a:hover
+            {
+                width: 200px !important;
+                background-color: #363433;
+                color: #fff !important;
+            }
+        }
+        
+    }
+
+    .redux-container
+    {      
+
+        #info_bar,#redux-footer
+        {
+            padding-top: 20px !important;
+            
+            height: 70px !important ;
+
+            
+
+        }
+        .redux-action_bar
+            {
+                right: 100px;
+            }
+    } 
+
+    .redux-main
+    {
+
+        h2
+        {
+            margin-left: 60px;
+            margin-right: 60px;
+            font-size: 28px;
+            background-color: #c9c9c9;
+            padding: 10px;
+        }
+        .form-table
+        {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+
+        .field-spacing-input 
+        {
+
+       
+            font-size: 14px !important;
+        
+    }
+    }
+
+    
+
+    

@@ -1,0 +1,89 @@
+.redux-sidebar-head {
+  background: #363433 url(../../images/iconfinder_Avengers1.png) no-repeat center;
+  background-size: 90px 90px;
+  border: none;
+  height: 180px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  width: 200px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.redux-logo-text {
+  margin-top: 155px;
+  display: block;
+  padding: 10px 0;
+  background: #65bc7b;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.redux-sidebar .redux-group-menu {
+  margin-top: 20px !important;
+}
+.redux-sidebar .redux-group-menu li.active a, .redux-sidebar .redux-group-menu li.active a:hover, .redux-sidebar .redux-group-menu li.activeChild a, .redux-sidebar .redux-group-menu li.activeChild a:hover {
+  width: 200px !important;
+  background-color: #363433;
+  color: #fff !important;
+}
+
+.redux-container #info_bar, .redux-container #redux-footer {
+  padding-top: 20px !important;
+  height: 70px !important;
+}
+.redux-container .redux-action_bar {
+  right: 100px;
+}
+
+.redux-main h2 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 28px;
+  background-color: #c9c9c9;
+  padding: 10px;
+}
+.redux-main .form-table {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.redux-main .field-spacing-input {
+  font-size: 14px !important;
+}
+
+.avs-admin p {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.avs-logo {
+  background: #fff url(../../images/iconfinder_Avengers1.png) no-repeat center;
+  background-size: 90px 90px;
+  border: none;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 50;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  margin: 2px 0 0;
+  display: inline-block;
+  width: 150px;
+  text-rendering: optimizeLegibility;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.avs-welcome-version {
+  margin-top: 125px;
+  display: block;
+  padding: 10px 0;
+  background: #65bc7b;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=admin.css.map */

@@ -36,6 +36,9 @@
 		============================================= -->
 		<section id="content">
 
+ 
+[sh_code/]
+
 			<div class="content-wrap nopadding">
 
 				<div id="section-about" class="center page-section">

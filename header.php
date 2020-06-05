@@ -8,7 +8,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title><?php wp_title(); ?></title>
-    <?php wp_head( ); ?>
+	<?php 
+	wp_head( ); 
+	global $avs;
+	?>
 </head>
 
 <body class="stretched side-push-panel">
@@ -111,7 +114,7 @@
 					============================================= -->
 					<div id="logo">
 					
-						<a href="<?php echo esc_url(home_url( '/' )); ?>" class="standard-logo" data-dark-logo="<?php echo get_template_directory_uri().'/dist/asset/images/canvasone-dark.png' ?>"><img src="<?php echo get_template_directory_uri().'/dist/asset/images/canvasone.png ' ?>" alt="Canvas Logo"></a>
+						<a href="<?php echo esc_url(home_url( '/' )); ?>" class="standard-logo" data-dark-logo="<?php if($avs['logo']['url'] == ''){ echo get_template_directory_uri().'/dist/asset/images/canvasone.png ';} else {echo $avs['logo']['url'];} ?>"><img src="<?php if($avs['logo']['url'] == ''){ echo get_template_directory_uri().'/dist/asset/images/canvasone.png ';} else {echo $avs['logo']['url'];} ?>" alt="Canvas Logo"></a>
 						<a href="<?php echo esc_url(home_url( '/' )); ?>" class="retina-logo" data-dark-logo="<?php echo get_template_directory_uri().'/dist/asset/images/canvasone-dark@2x.png' ?>"><img src="<?php echo get_template_directory_uri().'/dist/asset/images/canvasone@2x.png' ?>" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
